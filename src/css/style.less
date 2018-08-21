@@ -101,6 +101,11 @@ canvas {
         @c3: #95c3f5;
         @c4: #ffc929;
 
+        @c5: #ff6152;
+        @c6: #ffc929;
+        @c7: #4d78dc;
+        @c8: #69d1a8;
+
         margin-right: -@pad;
         overflow: hidden;
         padding-top: @pad;
@@ -178,6 +183,24 @@ canvas {
                 height: 206px;
             }
         }
+        li.section.s2 {
+            .info {
+                > span {
+                    &:nth-child(1)::before {
+                        background-color: @c8;
+                    }
+                    &:nth-child(2)::before {
+                        background-color: @c7;
+                    }
+                    &:nth-child(3)::before {
+                        background-color: @c6;
+                    }
+                    &:nth-child(4)::before {
+                        background-color: @c5;
+                    }
+                }
+            }
+        }
 
         li.section.s5 {
             .info {
@@ -247,16 +270,9 @@ canvas {
     }
 }
 
-#progress,
-#problem, {
-    // position: absolute;
-    // top: 50%;
-    // left: 50%;
-    // transform: translateX( -50%) translateY( -50% );
-    // background-color: transparent;
-    .setWH( 519.5px, 206px );
-}
-
-#shield {
+canvas.b {
     .setWH( 519.5px, 286px );
+}
+canvas {
+    .setWH( 519.5px, 206px );
 }

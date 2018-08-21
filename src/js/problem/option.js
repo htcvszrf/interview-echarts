@@ -29,7 +29,7 @@ define( [
         // },
         grid: {
             top: 10,
-            bottom: 20
+            bottom: 30
         },
         xAxis: [
             {
@@ -70,8 +70,7 @@ define( [
                 axisLine: {
                     show: false,
                     lineStyle: {
-                        color: '#dfdfdf',
-                        type: 'dashed'
+                        color: '#dfdfdf'
                     },
                     width: 1
                 },

@@ -17,7 +17,7 @@ define( [
         },
         grid: {
             top: 30,
-            bottom: 20
+            bottom: 30
         },
         xAxis: {
             axisTick: {

@@ -224,6 +224,18 @@ canvas {
   position: relative;
   height: 206px;
 }
+.container .view li.section.s2 .info > span:nth-child(1)::before {
+  background-color: #69d1a8;
+}
+.container .view li.section.s2 .info > span:nth-child(2)::before {
+  background-color: #4d78dc;
+}
+.container .view li.section.s2 .info > span:nth-child(3)::before {
+  background-color: #ffc929;
+}
+.container .view li.section.s2 .info > span:nth-child(4)::before {
+  background-color: #ff6152;
+}
 .container .view li.section.s5 .info {
   position: relative;
 }
@@ -275,12 +287,11 @@ canvas {
   border-bottom-right-radius: 5px;
   margin: 0;
 }
-#progress,
-#problem {
-  width: 519.5px;
-  height: 206px;
-}
-#shield {
+canvas.b {
   width: 519.5px;
   height: 286px;
+}
+canvas {
+  width: 519.5px;
+  height: 206px;
 }

@@ -87,7 +87,20 @@
                     <canvas id="progress" width="519.5" height="206"></canvas>
                 </div>
             </li>
-            <li class="section s2"></li>
+            <li class="section s2">
+                    <div class="info">
+                            问题统计数量TOP10
+                            <span>已关闭</span>
+                            <span>待验证</span>
+                            <span>待整改</span>
+                            <span>已逾期</span>
+                        </div>
+
+                        <div class="canvs">
+                            <!-- <canvas id="progress" width="519.5" height="280"></canvas> -->
+                            <canvas id="top" class="b" width="519.5" height="286"></canvas>
+                        </div>
+            </li>
             <li class="section s3">
                 <div class="info">
                     问题闭环情况
@@ -119,7 +132,34 @@
                     <canvas id="problem" width="519.5" height="206"></canvas>
                 </div>
             </li>
-            <li class="section s4"></li>
+            <li class="section s4">
+                <div class="info">
+                    工序验收情况
+                </div>
+                <ul class="c clearfix">
+                    <li>
+                        <p class="t">验收合格率</p>
+                        <p class="num ab">98.34%</p>
+                    </li>
+                    <li>
+                        <p class="t">验收总量</p>
+                        <p class="num ab">2,334</p>
+                    </li>
+                    <li>
+                        <p class="t">近7天验收合格</p>
+                        <p class="num ab">98.34%</p>
+                    </li>
+                    <li>
+                        <p class="t">近7天验收总量</p>
+                        <p class="num ab">342</p>
+                    </li>
+                </ul>
+
+                <div class="canvs">
+                    <!-- <canvas id="progress" width="519.5" height="280"></canvas> -->
+                    <canvas id="check" width="519.5" height="206"></canvas>
+                </div>
+            </li>
             <li class="section s5">
                 <div class="info">
                     盾构推进质量 <i class="line"></i>
@@ -133,10 +173,10 @@
 
                 <div class="canvs">
                     <!-- <canvas id="progress" width="519.5" height="280"></canvas> -->
-                    <canvas id="shield" width="519.5" height="286"></canvas>
+                    <canvas id="shield" class="b" width="519.5" height="286"></canvas>
                 </div>
             </li>
-            <li class="section s5"></li>
+            <li class="section s6"></li>
         </ul>
         <!-- echarts 结束 -->
 

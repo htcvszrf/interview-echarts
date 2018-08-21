@@ -11,5 +11,7 @@ require.config( {
 define( [
     'progress/index',
     'problem/index',
-    'shield/index'
+    'shield/index',
+    'top/index',
+    'check/index'
 ] );
