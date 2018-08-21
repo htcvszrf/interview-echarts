@@ -236,22 +236,27 @@ canvas {
 .container .view li.section.s2 .info > span:nth-child(4)::before {
   background-color: #ff6152;
 }
-.container .view li.section.s5 .info {
+.container .view li.section.s5 .info,
+.container .view li.section.s6 .info {
   position: relative;
 }
-.container .view li.section.s5 .info > span:nth-child(3)::before {
+.container .view li.section.s5 .info > span:nth-child(3)::before,
+.container .view li.section.s6 .info > span:nth-child(3)::before {
   background-color: #95c3f5;
 }
-.container .view li.section.s5 .info > span:nth-child(4)::before {
+.container .view li.section.s5 .info > span:nth-child(4)::before,
+.container .view li.section.s6 .info > span:nth-child(4)::before {
   background-color: #577bcf;
 }
-.container .view li.section.s5 .info .txt {
+.container .view li.section.s5 .info .txt,
+.container .view li.section.s6 .info .txt {
   display: inline-block;
   font-size: 16px;
   font-weight: normal;
   color: #666;
 }
-.container .view li.section.s5 .line {
+.container .view li.section.s5 .line,
+.container .view li.section.s6 .line {
   display: inline-block;
   position: relative;
   top: 2px;
@@ -261,14 +266,16 @@ canvas {
   margin-left: 3px;
   margin-right: 3px;
 }
-.container .view li.section.s5 .on-off {
+.container .view li.section.s5 .on-off,
+.container .view li.section.s6 .on-off {
   display: inline-block;
   color: #666;
   font-size: 16px;
   font-weight: normal;
   margin-left: 30px;
 }
-.container .view li.section.s5 .on-off .fw.l {
+.container .view li.section.s5 .on-off .fw.l,
+.container .view li.section.s6 .on-off .fw.l {
   background-color: #577bcf;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -277,10 +284,12 @@ canvas {
   border-right-style: none;
   border-right-width: 0;
 }
-.container .view li.section.s5 .on-off .r {
+.container .view li.section.s5 .on-off .r,
+.container .view li.section.s6 .on-off .r {
   border-left-style: none;
 }
-.container .view li.section.s5 .on-off > span {
+.container .view li.section.s5 .on-off > span,
+.container .view li.section.s6 .on-off > span {
   padding: 7px 14px;
   border: 1px solid #cecece;
   border-top-right-radius: 5px;

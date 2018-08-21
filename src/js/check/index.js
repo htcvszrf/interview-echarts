@@ -4,8 +4,6 @@ define( [
 ], function ( echarts, option ) {
     'use strict';
 
-    console.log( 'echarts:', echarts );
-
     // 初始化
     let chart = echarts.init( document.querySelector( '#check' ), null, {
         devicePixelRatio: 2

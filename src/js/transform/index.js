@@ -5,7 +5,7 @@ define( [
     'use strict';
 
     // 初始化
-    let chart = echarts.init( document.querySelector( '#shield' ), null, {
+    let chart = echarts.init( document.querySelector( '#transform' ), null, {
         devicePixelRatio: 2
     } );
 

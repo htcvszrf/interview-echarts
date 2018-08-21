@@ -13,5 +13,6 @@ define( [
     'problem/index',
     'shield/index',
     'top/index',
-    'check/index'
+    'check/index',
+    'transform/index'
 ] );
