@@ -32,6 +32,15 @@ li {
   content: "";
   clear: both;
 }
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.fw {
+  color: #fff;
+}
 /* 字体 */
 .mp {
   font-family: "MyriadPro Regular";

@@ -1,6 +1,7 @@
 define( [
-    './colors'
-], function ( colors ) {
+    './colors',
+    './mork'
+], function ( colors, mork ) {
     'use strict';
 
     return {
@@ -135,7 +136,7 @@ define( [
                     barBorderRadius: [ 5, 5, 0, 0 ]
                 },
                 barWidth: 10,
-                data: [ 26, 45, 26, 29, 25.6, 41, 47 ]
+                data: mork[ 0 ]
             },
             {
                 name: '监理单位',
@@ -144,7 +145,7 @@ define( [
                 itemStyle: {
                     barBorderRadius: [ 5, 5, 0, 0 ]
                 },
-                data: [ 28, 48, 21, 23, 65, 43, 49 ]
+                data: mork[ 1 ]
             },
             {
                 name: '建设单位',
@@ -153,7 +154,7 @@ define( [
                 itemStyle: {
                     barBorderRadius: [ 5, 5, 0, 0 ]
                 },
-                data: [ 18, 28, 23, 25, 42, 18, 22 ]
+                data: mork[ 2 ]
             },
             {
                 name: '质量巡查',
@@ -168,7 +169,7 @@ define( [
                 },
                 symbolSize: 8,
                 yAxisIndex: 0,
-                data: [ 67, 85, 61, 68, 86.3, 67, 90 ]
+                data: mork[ 3 ]
             }
         ]
     };

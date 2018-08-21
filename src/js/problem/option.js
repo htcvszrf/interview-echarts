@@ -1,6 +1,7 @@
 define( [
-    './colors'
-], function ( colors ) {
+    './colors',
+    './mork'
+], function ( colors, mork ) {
     'use strict';
 
     return {
@@ -100,7 +101,7 @@ define( [
                 },
                 symbolSize: 8,
                 yAxisIndex: 0,
-                data: [ 79, 81, 83, 72, 69, 73, 79 ]
+                data: mork[ 0 ]
             },
             {
                 name: '盾构断',
@@ -115,7 +116,7 @@ define( [
                 },
                 symbolSize: 8,
                 yAxisIndex: 0,
-                data: [ 58, 78, 48, 60, 75, 60, 75 ]
+                data: mork[ 1 ]
             },
             {
                 name: '西明挖断',
@@ -130,7 +131,7 @@ define( [
                 },
                 symbolSize: 8,
                 yAxisIndex: 0,
-                data: [ 68, 46, 61, 45, 60, 75, 78 ]
+                data: mork[ 2 ]
             }
         ]
     };
