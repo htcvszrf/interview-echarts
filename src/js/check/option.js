@@ -1,9 +1,9 @@
 define( [
     './colors',
     './mork',
-    '../colorOpt',
-    '../mixins',
-    '../createSeries'
+    '../../utils/colorOpt',
+    '../../utils/mixins',
+    '../../utils/createSeries'
 ], function ( colors, mork, colorStops, mixins, createSeries ) {
     'use strict';
 
