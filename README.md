@@ -17,6 +17,7 @@
 - [x] requireJS
 - [ ] x-template
 - [ ] mork
+- [x] less
 
 - [ ] vue
 
