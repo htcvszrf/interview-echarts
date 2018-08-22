@@ -7,7 +7,7 @@ define( [
 ], function ( colors, mork, mixins, createSeries, colorOpt ) {
     'use strict';
 
-    let names = '总包单位 监理单位 建设单位 质量巡查';
+    let names = '总包单位 监理单位 建设单位 质量巡查'.split( /\s/ );
 
     let _color = ( function () {
         let i = 0, res = [];
