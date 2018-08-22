@@ -49,7 +49,6 @@ define( [
             borderColor: '#fff'
         },
         symbolSize: 8,
-        yAxisIndex: 0,
         data: mork[ 3 ]
     };
 
@@ -61,7 +60,8 @@ define( [
         ],
         grid: {
             top: 10,
-            bottom: 30
+            bottom: 30,
+            left: 30
         },
         xAxis: [
             {

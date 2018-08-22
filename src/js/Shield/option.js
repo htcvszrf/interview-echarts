@@ -49,13 +49,17 @@ define( [
         },
         grid: {
             top: 30,
-            bottom: 30
+            bottom: 30,
+            left: 30
         },
         xAxis: {
             ...mixins.xAxis,
             name: '高层偏差',
             nameLocation: 'end',
-            nameRotate: -90
+            nameRotate: -90,
+            nameTextStyle: {
+                color: '#666'
+            }
         },
         yAxis: [
             {

@@ -13,7 +13,9 @@ define( [], function () {
             width: 1
         },
         axisTick: {
-            show: false
+            show: true,
+            inside: true,
+            length: 3
         },
         axisLabel: {
             color: '#666',
@@ -23,7 +25,9 @@ define( [], function () {
 
     return {
         xAxis: axis,
-        yAxis: { ...axis },
+        yAxis: { ...axis, axisTick: {
+            show: false
+        } },
         tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -35,7 +39,8 @@ define( [], function () {
         },
         grid: {
             top: 10,
-            bottom: 30
+            bottom: 30,
+            left: 30
         }
     };
 } );
