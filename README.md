@@ -18,11 +18,15 @@
 - [ ] x-template
 - [ ] mork
 - [x] less
-
 - [ ] vue
-
-
 
 ## 问题
 
 1. `icon` 图片裁剪有问题
+2. 没有使用媒体查询
+
+
+
+## 预览
+
+![index.html](./doc/preview_01.png)
